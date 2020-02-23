@@ -1,0 +1,36 @@
+{
+  "details": {
+    "description": "this is a database filled by an aircraft(modal)'s barometric sensor, and used by the front-end of the 7ENA website!",
+    "name": "7ENA"
+  },
+  "sensors": {
+    "BMP280": {
+      "data": {
+        "pressure": {
+          "array": [0.3, 0.9, 1.1, 0.6, 0.4, 0.7, 0.8, 0.1, 0.2, 0.7],
+          "stepsize": {
+            "step": 1,
+            "unit": "sec"
+          },
+          "details":{
+            "data_unit": "Pascal"
+          }
+        },
+        "temperature": {
+          "array": [273, 270, 275, 276, 271, 277, 280, 260, 270, 273],
+          "stepsize": {
+            "step": 1,
+            "unit": "sec"
+          },
+          "details":{
+            "data_unit": "Kelvin"
+          }
+        }
+      },
+      "details": {
+        "description": "this sensor measures pressure by the means of barometric mesurements",
+        "name": "BMP280"
+      }
+    }
+  }
+}
