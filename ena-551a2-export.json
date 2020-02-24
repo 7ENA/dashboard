@@ -1,6 +1,6 @@
 {
   "details": {
-    "description": "this is a database filled by an aircraft(modal)'s barometric sensor, and used by the front-end of the 7ENA website!",
+    "description": "this is a format of database filled by an aircraft(modal)'s barometric sensor, and used by the front-end of the 7ENA website!",
     "name": "7ENA"
   },
   "sensors": {
