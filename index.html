@@ -44,19 +44,63 @@
         integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <h1>7ENA Real-Time Flight DashBoard</h1>
-    <div>
-        <!-- <canvas id="pressurePlot" aria-label="pressurePlot" role="img">
-            <p>pressurePlot</p>
-        </canvas> -->
-        <canvas id="tempPlot" aria-label="tempPlot" role="img">
-            <p>pressurePlot</p>
-        </canvas>
-    </div>
-    <script src="firebase.js"></script>
+<body style="background-color: brown;">
+    <img src="favicon.ico" width="10%" style="float: right;" />
+    <a href="https://7ena.github.io"><h1 style="color: palevioletred;">7ENA Real-Time Flight DashBoard (BMP280-ESP8266-ESP01)</h1></a>
+    <table>
+        <tr>
+            <td>
+                <canvas id="pressurePlot" aria-label="pressurePlot" role="img">
+                    <p>pressurePlot</p>
+                </canvas>        
+            </td>
+            <td>
+                <canvas id="tempPlot" aria-label="tempPlot" role="img">
+                    <p>temperaturePlot</p>
+                </canvas>        
+            </td>
+            <td>
+                <canvas id="heightPlot" aria-label="heightPlot" role="img">
+                    <p>heightPlot</p>
+                </canvas>        
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <canvas id="velPlot" aria-label="velPlot" role="img">
+                    <p>velocityPlot</p>
+                </canvas>
+            </td>
+            <td>
+                <canvas id="liftPlot" aria-label="liftPlot" role="img">
+                    <p>liftPlot</p>
+                </canvas>
+            </td>
+            <td>
+                <canvas id="thrustPlot" aria-label="thrustPlot" role="img">
+                    <p>thrustPlot</p>
+                </canvas>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <canvas id="weightPlot" aria-label="weightPlot" role="img">
+                    <p>weightPlot</p>
+                </canvas>
+            </td>
+            <td>
+                <canvas id="dragPlot" aria-label="dragPlot" role="img">
+                    <p>dragPlot</p>
+                </canvas>
+            </td>
+            <td>
+                <canvas id="densityPlot" aria-label="densityPlot" role="img">
+                    <p>densityPlot</p>
+                </canvas>
+            </td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
 </body>
 
 </html>
-
-<!-- P,T,p,H,v, L,T,D,W-->
